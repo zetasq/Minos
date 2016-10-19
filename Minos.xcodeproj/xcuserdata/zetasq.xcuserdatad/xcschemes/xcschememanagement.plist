@@ -4,7 +4,12 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Minos.xcscheme</key>
+		<key>Minos-iOS.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>Minos-macOS.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -13,6 +18,26 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>D45802C41DB6871F00F0AC3C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D45802D61DB6879A00F0AC3C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D45802DE1DB6879A00F0AC3C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D45802F21DB687FE00F0AC3C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D45802FA1DB687FF00F0AC3C</key>
 		<dict>
 			<key>primary</key>
 			<true/>

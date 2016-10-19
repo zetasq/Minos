@@ -7,20 +7,76 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D45802CA1DB6871F00F0AC3C /* Minos.h in Headers */ = {isa = PBXBuildFile; fileRef = D45802C81DB6871F00F0AC3C /* Minos.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D45802E01DB6879A00F0AC3C /* Minos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D45802D71DB6879A00F0AC3C /* Minos.framework */; };
+		D45802E71DB6879A00F0AC3C /* Minos-macOS.h in Headers */ = {isa = PBXBuildFile; fileRef = D45802D91DB6879A00F0AC3C /* Minos-macOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D45802FC1DB687FF00F0AC3C /* Minos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D45802F31DB687FE00F0AC3C /* Minos.framework */; };
+		D45803031DB687FF00F0AC3C /* Minos-iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = D45802F51DB687FF00F0AC3C /* Minos-iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D458030B1DB68A3F00F0AC3C /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = D458030A1DB68A3F00F0AC3C /* Car.swift */; };
+		D458030C1DB68A3F00F0AC3C /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = D458030A1DB68A3F00F0AC3C /* Car.swift */; };
+		D458030E1DB68AD700F0AC3C /* CarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D458030D1DB68AD700F0AC3C /* CarTests.swift */; };
+		D45803121DB68EC200F0AC3C /* CarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D458030D1DB68AD700F0AC3C /* CarTests.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		D45802E11DB6879A00F0AC3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D45802BC1DB6871F00F0AC3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D45802D61DB6879A00F0AC3C;
+			remoteInfo = "Minos-macOS";
+		};
+		D45802FD1DB687FF00F0AC3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D45802BC1DB6871F00F0AC3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D45802F21DB687FE00F0AC3C;
+			remoteInfo = "Minos-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		D45802C51DB6871F00F0AC3C /* Minos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Minos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D45802C81DB6871F00F0AC3C /* Minos.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Minos.h; sourceTree = "<group>"; };
-		D45802C91DB6871F00F0AC3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D45802D71DB6879A00F0AC3C /* Minos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Minos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D45802D91DB6879A00F0AC3C /* Minos-macOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Minos-macOS.h"; sourceTree = "<group>"; };
+		D45802DA1DB6879A00F0AC3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D45802DF1DB6879A00F0AC3C /* Minos-macOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Minos-macOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D45802E61DB6879A00F0AC3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D45802F31DB687FE00F0AC3C /* Minos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Minos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D45802F51DB687FF00F0AC3C /* Minos-iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Minos-iOS.h"; sourceTree = "<group>"; };
+		D45802F61DB687FF00F0AC3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D45802FB1DB687FF00F0AC3C /* Minos-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Minos-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D45803021DB687FF00F0AC3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D458030A1DB68A3F00F0AC3C /* Car.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		D458030D1DB68AD700F0AC3C /* CarTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D45802C11DB6871F00F0AC3C /* Frameworks */ = {
+		D45802D31DB6879A00F0AC3C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D45802DC1DB6879A00F0AC3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D45802E01DB6879A00F0AC3C /* Minos.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D45802EF1DB687FE00F0AC3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D45802F81DB687FF00F0AC3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D45802FC1DB687FF00F0AC3C /* Minos.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -30,7 +86,12 @@
 		D45802BB1DB6871F00F0AC3C = {
 			isa = PBXGroup;
 			children = (
-				D45802C71DB6871F00F0AC3C /* Minos */,
+				D45802D01DB6874900F0AC3C /* Source */,
+				D45802D11DB6875300F0AC3C /* Tests */,
+				D45802D81DB6879A00F0AC3C /* Minos-macOS */,
+				D45802E31DB6879A00F0AC3C /* Minos-macOSTests */,
+				D45802F41DB687FF00F0AC3C /* Minos-iOS */,
+				D45802FF1DB687FF00F0AC3C /* Minos-iOSTests */,
 				D45802C61DB6871F00F0AC3C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -38,51 +99,157 @@
 		D45802C61DB6871F00F0AC3C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D45802C51DB6871F00F0AC3C /* Minos.framework */,
+				D45802D71DB6879A00F0AC3C /* Minos.framework */,
+				D45802DF1DB6879A00F0AC3C /* Minos-macOSTests.xctest */,
+				D45802F31DB687FE00F0AC3C /* Minos.framework */,
+				D45802FB1DB687FF00F0AC3C /* Minos-iOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D45802C71DB6871F00F0AC3C /* Minos */ = {
+		D45802D01DB6874900F0AC3C /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				D45802C81DB6871F00F0AC3C /* Minos.h */,
-				D45802C91DB6871F00F0AC3C /* Info.plist */,
+				D458030A1DB68A3F00F0AC3C /* Car.swift */,
 			);
-			path = Minos;
+			path = Source;
+			sourceTree = "<group>";
+		};
+		D45802D11DB6875300F0AC3C /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D458030D1DB68AD700F0AC3C /* CarTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		D45802D81DB6879A00F0AC3C /* Minos-macOS */ = {
+			isa = PBXGroup;
+			children = (
+				D45802D91DB6879A00F0AC3C /* Minos-macOS.h */,
+				D45802DA1DB6879A00F0AC3C /* Info.plist */,
+			);
+			path = "Minos-macOS";
+			sourceTree = "<group>";
+		};
+		D45802E31DB6879A00F0AC3C /* Minos-macOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				D45802E61DB6879A00F0AC3C /* Info.plist */,
+			);
+			path = "Minos-macOSTests";
+			sourceTree = "<group>";
+		};
+		D45802F41DB687FF00F0AC3C /* Minos-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D45802F51DB687FF00F0AC3C /* Minos-iOS.h */,
+				D45802F61DB687FF00F0AC3C /* Info.plist */,
+			);
+			path = "Minos-iOS";
+			sourceTree = "<group>";
+		};
+		D45802FF1DB687FF00F0AC3C /* Minos-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				D45803021DB687FF00F0AC3C /* Info.plist */,
+			);
+			path = "Minos-iOSTests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		D45802C21DB6871F00F0AC3C /* Headers */ = {
+		D45802D41DB6879A00F0AC3C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D45802CA1DB6871F00F0AC3C /* Minos.h in Headers */,
+				D45802E71DB6879A00F0AC3C /* Minos-macOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D45802F01DB687FE00F0AC3C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D45803031DB687FF00F0AC3C /* Minos-iOS.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		D45802C41DB6871F00F0AC3C /* Minos */ = {
+		D45802D61DB6879A00F0AC3C /* Minos-macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D45802CD1DB6871F00F0AC3C /* Build configuration list for PBXNativeTarget "Minos" */;
+			buildConfigurationList = D45802E81DB6879A00F0AC3C /* Build configuration list for PBXNativeTarget "Minos-macOS" */;
 			buildPhases = (
-				D45802C01DB6871F00F0AC3C /* Sources */,
-				D45802C11DB6871F00F0AC3C /* Frameworks */,
-				D45802C21DB6871F00F0AC3C /* Headers */,
-				D45802C31DB6871F00F0AC3C /* Resources */,
+				D45802D21DB6879A00F0AC3C /* Sources */,
+				D45802D31DB6879A00F0AC3C /* Frameworks */,
+				D45802D41DB6879A00F0AC3C /* Headers */,
+				D45802D51DB6879A00F0AC3C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Minos;
-			productName = Minos;
-			productReference = D45802C51DB6871F00F0AC3C /* Minos.framework */;
+			name = "Minos-macOS";
+			productName = "Minos-macOS";
+			productReference = D45802D71DB6879A00F0AC3C /* Minos.framework */;
 			productType = "com.apple.product-type.framework";
+		};
+		D45802DE1DB6879A00F0AC3C /* Minos-macOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D45802EB1DB6879A00F0AC3C /* Build configuration list for PBXNativeTarget "Minos-macOSTests" */;
+			buildPhases = (
+				D45802DB1DB6879A00F0AC3C /* Sources */,
+				D45802DC1DB6879A00F0AC3C /* Frameworks */,
+				D45802DD1DB6879A00F0AC3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D45802E21DB6879A00F0AC3C /* PBXTargetDependency */,
+			);
+			name = "Minos-macOSTests";
+			productName = "Minos-macOSTests";
+			productReference = D45802DF1DB6879A00F0AC3C /* Minos-macOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D45802F21DB687FE00F0AC3C /* Minos-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D45803041DB687FF00F0AC3C /* Build configuration list for PBXNativeTarget "Minos-iOS" */;
+			buildPhases = (
+				D45802EE1DB687FE00F0AC3C /* Sources */,
+				D45802EF1DB687FE00F0AC3C /* Frameworks */,
+				D45802F01DB687FE00F0AC3C /* Headers */,
+				D45802F11DB687FE00F0AC3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Minos-iOS";
+			productName = "Minos-iOS";
+			productReference = D45802F31DB687FE00F0AC3C /* Minos.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D45802FA1DB687FF00F0AC3C /* Minos-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D45803071DB687FF00F0AC3C /* Build configuration list for PBXNativeTarget "Minos-iOSTests" */;
+			buildPhases = (
+				D45802F71DB687FF00F0AC3C /* Sources */,
+				D45802F81DB687FF00F0AC3C /* Frameworks */,
+				D45802F91DB687FF00F0AC3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D45802FE1DB687FF00F0AC3C /* PBXTargetDependency */,
+			);
+			name = "Minos-iOSTests";
+			productName = "Minos-iOSTests";
+			productReference = D45802FB1DB687FF00F0AC3C /* Minos-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -90,10 +257,28 @@
 		D45802BC1DB6871F00F0AC3C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0800;
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Zhu Shengqi";
 				TargetAttributes = {
-					D45802C41DB6871F00F0AC3C = {
+					D45802D61DB6879A00F0AC3C = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = DHNJ8N28ZZ;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+					};
+					D45802DE1DB6879A00F0AC3C = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = DHNJ8N28ZZ;
+						ProvisioningStyle = Automatic;
+					};
+					D45802F21DB687FE00F0AC3C = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = DHNJ8N28ZZ;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+					};
+					D45802FA1DB687FF00F0AC3C = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = DHNJ8N28ZZ;
 						ProvisioningStyle = Automatic;
@@ -112,13 +297,37 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D45802C41DB6871F00F0AC3C /* Minos */,
+				D45802D61DB6879A00F0AC3C /* Minos-macOS */,
+				D45802DE1DB6879A00F0AC3C /* Minos-macOSTests */,
+				D45802F21DB687FE00F0AC3C /* Minos-iOS */,
+				D45802FA1DB687FF00F0AC3C /* Minos-iOSTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D45802C31DB6871F00F0AC3C /* Resources */ = {
+		D45802D51DB6879A00F0AC3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D45802DD1DB6879A00F0AC3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D45802F11DB687FE00F0AC3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D45802F91DB687FF00F0AC3C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -128,14 +337,52 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D45802C01DB6871F00F0AC3C /* Sources */ = {
+		D45802D21DB6879A00F0AC3C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D458030B1DB68A3F00F0AC3C /* Car.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D45802DB1DB6879A00F0AC3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D458030E1DB68AD700F0AC3C /* CarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D45802EE1DB687FE00F0AC3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D458030C1DB68A3F00F0AC3C /* Car.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D45802F71DB687FF00F0AC3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D45803121DB68EC200F0AC3C /* CarTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D45802E21DB6879A00F0AC3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D45802D61DB6879A00F0AC3C /* Minos-macOS */;
+			targetProxy = D45802E11DB6879A00F0AC3C /* PBXContainerItemProxy */;
+		};
+		D45802FE1DB687FF00F0AC3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D45802F21DB687FE00F0AC3C /* Minos-iOS */;
+			targetProxy = D45802FD1DB687FF00F0AC3C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		D45802CB1DB6871F00F0AC3C /* Debug */ = {
@@ -234,9 +481,10 @@
 			};
 			name = Release;
 		};
-		D45802CE1DB6871F00F0AC3C /* Debug */ = {
+		D45802E91DB6879A00F0AC3C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
@@ -245,19 +493,21 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = Minos/Info.plist;
+				INFOPLIST_FILE = "Minos-macOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.dia.Minos;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dia.Minos-macOS";
+				PRODUCT_NAME = Minos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
-		D45802CF1DB6871F00F0AC3C /* Release */ = {
+		D45802EA1DB6879A00F0AC3C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
@@ -266,13 +516,124 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = Minos/Info.plist;
+				INFOPLIST_FILE = "Minos-macOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.dia.Minos;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dia.Minos-macOS";
+				PRODUCT_NAME = Minos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		D45802EC1DB6879A00F0AC3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = DHNJ8N28ZZ;
+				INFOPLIST_FILE = "Minos-macOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dia.Minos-macOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D45802ED1DB6879A00F0AC3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = DHNJ8N28ZZ;
+				INFOPLIST_FILE = "Minos-macOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dia.Minos-macOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		D45803051DB687FF00F0AC3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = DHNJ8N28ZZ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Minos-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dia.Minos-iOS";
+				PRODUCT_NAME = Minos;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D45803061DB687FF00F0AC3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = DHNJ8N28ZZ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Minos-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dia.Minos-iOS";
+				PRODUCT_NAME = Minos;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D45803081DB687FF00F0AC3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = DHNJ8N28ZZ;
+				INFOPLIST_FILE = "Minos-iOSTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dia.Minos-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D45803091DB687FF00F0AC3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = DHNJ8N28ZZ;
+				INFOPLIST_FILE = "Minos-iOSTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dia.Minos-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 3.0;
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -288,11 +649,35 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D45802CD1DB6871F00F0AC3C /* Build configuration list for PBXNativeTarget "Minos" */ = {
+		D45802E81DB6879A00F0AC3C /* Build configuration list for PBXNativeTarget "Minos-macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D45802CE1DB6871F00F0AC3C /* Debug */,
-				D45802CF1DB6871F00F0AC3C /* Release */,
+				D45802E91DB6879A00F0AC3C /* Debug */,
+				D45802EA1DB6879A00F0AC3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D45802EB1DB6879A00F0AC3C /* Build configuration list for PBXNativeTarget "Minos-macOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D45802EC1DB6879A00F0AC3C /* Debug */,
+				D45802ED1DB6879A00F0AC3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D45803041DB687FF00F0AC3C /* Build configuration list for PBXNativeTarget "Minos-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D45803051DB687FF00F0AC3C /* Debug */,
+				D45803061DB687FF00F0AC3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D45803071DB687FF00F0AC3C /* Build configuration list for PBXNativeTarget "Minos-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D45803081DB687FF00F0AC3C /* Debug */,
+				D45803091DB687FF00F0AC3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
