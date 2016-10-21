@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D45802F21DB687FE00F0AC3C"
-               BuildableName = "Minos-iOS.framework"
+               BuildableName = "Minos.framework"
                BlueprintName = "Minos-iOS"
                ReferencedContainer = "container:Minos.xcodeproj">
             </BuildableReference>
@@ -44,7 +44,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D45802F21DB687FE00F0AC3C"
-            BuildableName = "Minos-iOS.framework"
+            BuildableName = "Minos.framework"
             BlueprintName = "Minos-iOS"
             ReferencedContainer = "container:Minos.xcodeproj">
          </BuildableReference>
@@ -66,7 +66,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D45802F21DB687FE00F0AC3C"
-            BuildableName = "Minos-iOS.framework"
+            BuildableName = "Minos.framework"
             BlueprintName = "Minos-iOS"
             ReferencedContainer = "container:Minos.xcodeproj">
          </BuildableReference>
@@ -84,7 +84,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D45802F21DB687FE00F0AC3C"
-            BuildableName = "Minos-iOS.framework"
+            BuildableName = "Minos.framework"
             BlueprintName = "Minos-iOS"
             ReferencedContainer = "container:Minos.xcodeproj">
          </BuildableReference>

@@ -11,10 +11,14 @@
 		D45802E71DB6879A00F0AC3C /* Minos-macOS.h in Headers */ = {isa = PBXBuildFile; fileRef = D45802D91DB6879A00F0AC3C /* Minos-macOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D45802FC1DB687FF00F0AC3C /* Minos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D45802F31DB687FE00F0AC3C /* Minos.framework */; };
 		D45803031DB687FF00F0AC3C /* Minos-iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = D45802F51DB687FF00F0AC3C /* Minos-iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D458030B1DB68A3F00F0AC3C /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = D458030A1DB68A3F00F0AC3C /* Car.swift */; };
-		D458030C1DB68A3F00F0AC3C /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = D458030A1DB68A3F00F0AC3C /* Car.swift */; };
-		D458030E1DB68AD700F0AC3C /* CarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D458030D1DB68AD700F0AC3C /* CarTests.swift */; };
-		D45803121DB68EC200F0AC3C /* CarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D458030D1DB68AD700F0AC3C /* CarTests.swift */; };
+		D45803141DBA657500F0AC3C /* RandomNumberTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45803131DBA657500F0AC3C /* RandomNumberTest.swift */; };
+		D45803151DBA657500F0AC3C /* RandomNumberTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45803131DBA657500F0AC3C /* RandomNumberTest.swift */; };
+		D45803171DBA686E00F0AC3C /* RandomNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45803161DBA686E00F0AC3C /* RandomNumber.swift */; };
+		D45803181DBA686E00F0AC3C /* RandomNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45803161DBA686E00F0AC3C /* RandomNumber.swift */; };
+		D458031A1DBA807E00F0AC3C /* RandomBytes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45803191DBA807E00F0AC3C /* RandomBytes.swift */; };
+		D458031B1DBA807E00F0AC3C /* RandomBytes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45803191DBA807E00F0AC3C /* RandomBytes.swift */; };
+		D45803201DBA842900F0AC3C /* RandomBytesTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D458031C1DBA842200F0AC3C /* RandomBytesTest.swift */; };
+		D45803211DBA842900F0AC3C /* RandomBytesTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D458031C1DBA842200F0AC3C /* RandomBytesTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,8 +49,10 @@
 		D45802F61DB687FF00F0AC3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D45802FB1DB687FF00F0AC3C /* Minos-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Minos-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D45803021DB687FF00F0AC3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D458030A1DB68A3F00F0AC3C /* Car.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
-		D458030D1DB68AD700F0AC3C /* CarTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarTests.swift; sourceTree = "<group>"; };
+		D45803131DBA657500F0AC3C /* RandomNumberTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomNumberTest.swift; sourceTree = "<group>"; };
+		D45803161DBA686E00F0AC3C /* RandomNumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomNumber.swift; sourceTree = "<group>"; };
+		D45803191DBA807E00F0AC3C /* RandomBytes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomBytes.swift; sourceTree = "<group>"; };
+		D458031C1DBA842200F0AC3C /* RandomBytesTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomBytesTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,7 +116,8 @@
 		D45802D01DB6874900F0AC3C /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				D458030A1DB68A3F00F0AC3C /* Car.swift */,
+				D45803161DBA686E00F0AC3C /* RandomNumber.swift */,
+				D45803191DBA807E00F0AC3C /* RandomBytes.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -118,7 +125,8 @@
 		D45802D11DB6875300F0AC3C /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				D458030D1DB68AD700F0AC3C /* CarTests.swift */,
+				D45803131DBA657500F0AC3C /* RandomNumberTest.swift */,
+				D458031C1DBA842200F0AC3C /* RandomBytesTest.swift */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -341,7 +349,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D458030B1DB68A3F00F0AC3C /* Car.swift in Sources */,
+				D458031A1DBA807E00F0AC3C /* RandomBytes.swift in Sources */,
+				D45803171DBA686E00F0AC3C /* RandomNumber.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,7 +358,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D458030E1DB68AD700F0AC3C /* CarTests.swift in Sources */,
+				D45803201DBA842900F0AC3C /* RandomBytesTest.swift in Sources */,
+				D45803141DBA657500F0AC3C /* RandomNumberTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,7 +367,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D458030C1DB68A3F00F0AC3C /* Car.swift in Sources */,
+				D458031B1DBA807E00F0AC3C /* RandomBytes.swift in Sources */,
+				D45803181DBA686E00F0AC3C /* RandomNumber.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,7 +376,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D45803121DB68EC200F0AC3C /* CarTests.swift in Sources */,
+				D45803211DBA842900F0AC3C /* RandomBytesTest.swift in Sources */,
+				D45803151DBA657500F0AC3C /* RandomNumberTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +510,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dia.Minos-macOS";
 				PRODUCT_NAME = Minos;
+				RESOURCES_TARGETED_DEVICE_FAMILY = "";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
@@ -521,6 +534,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dia.Minos-macOS";
 				PRODUCT_NAME = Minos;
+				RESOURCES_TARGETED_DEVICE_FAMILY = "";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
 			};
@@ -656,6 +670,7 @@
 				D45802EA1DB6879A00F0AC3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D45802EB1DB6879A00F0AC3C /* Build configuration list for PBXNativeTarget "Minos-macOSTests" */ = {
 			isa = XCConfigurationList;
@@ -664,6 +679,7 @@
 				D45802ED1DB6879A00F0AC3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D45803041DB687FF00F0AC3C /* Build configuration list for PBXNativeTarget "Minos-iOS" */ = {
 			isa = XCConfigurationList;
@@ -672,6 +688,7 @@
 				D45803061DB687FF00F0AC3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D45803071DB687FF00F0AC3C /* Build configuration list for PBXNativeTarget "Minos-iOSTests" */ = {
 			isa = XCConfigurationList;
@@ -680,6 +697,7 @@
 				D45803091DB687FF00F0AC3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
